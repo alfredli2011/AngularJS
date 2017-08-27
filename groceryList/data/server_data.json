@@ -1,0 +1,9 @@
+[
+	{"id":1,"completed":true, "itemName":"milk", "date":"2017-6-26"},
+	{"id":2,"completed":true, "itemName":"egg", "date":"2017-6-26"},
+	{"id":3,"completed":true, "itemName":"apple", "date":"2017-6-27"},
+	{"id":4,"completed":true, "itemName":"beef", "date":"2017-6-28"},
+	{"id":5,"completed":true, "itemName":"cookie", "date":"2017-6-28"},
+	{"id":6,"completed":true, "itemName":"carrot", "date":"2017-6-28"},
+	{"id":7,"completed":true, "itemName":"tomato", "date":"2017-6-29"}
+]

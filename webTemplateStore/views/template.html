@@ -1,0 +1,18 @@
+<div class="row template">
+		<div class="col-md-6">
+			<img ng-src="img/{{fullImage}}">
+			<div class="row">
+				<div ng-repeat="image in template.images">
+					<div class="col-md-3">
+						<img ng-src="img/{{image.name}}" ng-click="setImage(image)">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h2>{{template.name}}</h2>
+			<p>{{template.description}}</p>
+			<a class="btn btn-primary btn-block" href="#/">Buy It !</a>
+		</div>
+	</div>
+</div>

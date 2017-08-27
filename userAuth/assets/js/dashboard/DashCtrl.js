@@ -1,0 +1,13 @@
+angular.module('DashMod')
+.controller('DashCtrl',['$scope','$http',function($scope,$http){
+	$scope.getUser=function(){
+		$http.get('/getuser')
+		.then(function(response){
+			console.log(response.data);
+			$scope.user=response.data;
+		})
+		.catch(function(err){
+			console.log(err);
+		});
+	};
+}]);

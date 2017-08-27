@@ -1,0 +1,11 @@
+.template {
+	text-align: center;
+}
+.template img {
+	width: 100%;
+}
+.template a {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
